@@ -9,7 +9,7 @@ import Portfolio from './components/Portfolio.vue';
   <!-- NAVIGATION BAR -->
   <nav class="flex fixed top-0 left-0 right-0 justify-between h-16 items-center px-32 rounded-b-md bg-slate-100/70 shadow-md z-50">
     <div>
-      <img src="logo2.png" alt="logo" class="h-10">
+      <img src="./assets/images/logo2.png" alt="logo" class="h-10">
     </div>
     <div class="flex space-x-10 font-dmsans font-semibold text-pinkish gap-10">
       <a href="###">HOME</a>
@@ -26,16 +26,16 @@ import Portfolio from './components/Portfolio.vue';
 
     <!-- START OF MAPLE -->
 
-    <div style="background-image: url('maple.png'); background-repeat: no-repeat;" class="h-[50vh] w-[52vw] absolute right-0 top-0"> </div>
-    <div style="background-image: url('maple2.png'); background-repeat: no-repeat; background-size: 100%;" class="h-1/2 w-[41vw] absolute left-0 bottom-0"> </div>
+    <div style="background-image: url('src/assets/images/maple.png'); background-repeat: no-repeat;" class="h-[50vh] w-[52vw] absolute right-0 top-0"> </div>
+    <div style="background-image: url('src/assets/images/maple2.png'); background-repeat: no-repeat; background-size: 100%;" class="h-1/2 w-[41vw] absolute left-0 bottom-0"> </div>
    
       <!-- END OF MAPLE -->
 
       <div class="flex w-full h-full absolute top-0 right-0 left-0 bottom-0 px-32 py-40">
         <div class="flex justify-start items-center w-1/2 h-full">
-          <img src="profile.jpg" alt="profile" class="border-4 border-pinkish/50 h-4/5 rounded-md z-40">
+          <img src="./assets/images/profile.jpg" alt="profile" class="border-4 border-pinkish/50 h-4/5 rounded-md z-40">
         </div>
-
+    
 
         <!-- START OF NAMES -->
 
