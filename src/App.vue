@@ -26,8 +26,8 @@ import Portfolio from './components/Portfolio.vue';
 
     <!-- START OF MAPLE -->
 
-    <div style="background-image: url('src/assets/images/maple.png'); background-repeat: no-repeat;" class="h-[50vh] w-[52vw] absolute right-0 top-0"> </div>
-    <div style="background-image: url('src/assets/images/maple2.png'); background-repeat: no-repeat; background-size: 100%;" class="h-1/2 w-[41vw] absolute left-0 bottom-0"> </div>
+    <div style="background-image: url('/src/assets/images/maple.png'); background-repeat: no-repeat;" class="h-[50vh] w-[52vw] absolute right-0 top-0"> </div>
+    <div style="background-image: url('/src/assets/images/maple2.png'); background-repeat: no-repeat; background-size: 100%;" class="h-1/2 w-[41vw] absolute left-0 bottom-0"> </div>
    
       <!-- END OF MAPLE -->
 
