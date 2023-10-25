@@ -23,7 +23,7 @@
 
             <div class="flex flex-col py-1 h-full"
                 :class="{'justify-center': itemIndex == 1, 'justify-start': itemIndex == 0, 'justify-end': itemIndex == 2}">
-                <img src="heart.png" alt="heart" class="h-3 w-3">
+                <img src="../assets/images/heart.png" alt="heart" class="h-3 w-3">
             </div>
         </div>
       
