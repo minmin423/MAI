@@ -4,6 +4,9 @@ module.exports = {
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
+  // safelist: [
+  //   'text-black/100',
+  // ],
   theme: {
     fontFamily:{
       'dmsans': ['"DM Sans"', 'sans']
