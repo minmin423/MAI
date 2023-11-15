@@ -10,36 +10,36 @@
                 </div>
                 <p class="flex leading-3 opacity-50 justify-start w-full -mt-5">PORTFOLIO</p>
         </div>
-
-        <div class="w-full h-[71px] px-72 -mt-20 flex gap-2 justify-end items-end">
-            <div class="flex flex-col  font-medium">
-                <p class="text-black/50 hover:text-black z-50 cursor-pointer"
-                    v-for="(item, index) in menuItems"
-                    :key="index"
-                    @click="itemIndexClicked(index)"
-                    :class="{'text-black/100' : index == itemIndex}"
-                    >{{item}}</p>
-            </div>
-
-            <div class="flex flex-col py-1 h-full"
-                :class="{'justify-center': itemIndex == 1, 'justify-start': itemIndex == 0, 'justify-end': itemIndex == 2}">
-                <img src="../assets/images/heart.png" alt="heart" class="h-3 w-3">
-            </div>
+ <div class="flex gap-5 px-32 py-10 w-full h-full">
+    <a v-for="(uidesign,index) in uidesigns" :key="index" class="w-1/4 relative" :href="uidesign.href" target="_blank">
+        <div class="absolute bg-black/0 inset-0 hover:bg-black/30 transition-color duration-150 ease-in-out text-white/0 hover:text-white/100 flex items-end text-xl pl-5">
+            {{uidesign.name}}
         </div>
-      
+        <!-- <img :src = "uidesign.url"> -->
+        <div style="background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;"
+        class="w-full h-[25vh]" 
+        :style="{ 'background-image': 'url(' + uidesign.url + ')' }">
+            
+        </div>
+    </a>  
+
+    
+ </div>
+
+
     </div>
 
 </template>
 
 <script setup>
-    import { ref } from 'vue';
+import { ref } from 'vue';
 
-    const menuItems = ref([
-        "Graphic Design", "UI Design", "Other Works"
-    ]);
-    const itemIndex = ref(0);
-
-    const itemIndexClicked = (index) => {
-        itemIndex.value = index;
-    };
+const uidesigns = ref([
+    {name:"Attendance System", url:"/uidesigns/attendancesystem.png", href: "https://www.behance.net/gallery/184483719/Attendance-System-Website/modules/1042477149"},
+    {name:"E-Commerce - Dates Fruit PH", url:"/uidesigns/datesfruitph.png", href:"https://www.behance.net/gallery/184482817/E-Commerce-UI-Design/modules/1042472751"},
+    {name:"Attendance System - Mobile", url:"/uidesigns/attendancesystem-mobile-lobby@3x.png", href: "https://www.behance.net/gallery/184483521/Attendance-System-UI-Design/modules/1042476249"},
+    {name:"Upcoming Events", url:"/uidesigns/I7-website@2x.png", href: "https://www.behance.net/gallery/184483299/Upcoming-Events-UI-Design/modules/1042475027"},
+])
 </script>
