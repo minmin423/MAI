@@ -10,21 +10,58 @@
                 </div>
                 <p class="flex leading-3 opacity-50 justify-start w-full -mt-5">PORTFOLIO</p>
         </div>
- <div class="flex gap-5 px-32 py-10 w-full h-full">
-    <a v-for="(uidesign,index) in uidesigns" :key="index" class="w-1/4 relative" :href="uidesign.href" target="_blank">
-        <div class="absolute bg-black/0 inset-0 hover:bg-black/30 transition-color duration-150 ease-in-out text-white/0 hover:text-white/100 flex items-end text-xl pl-5">
-            {{uidesign.name}}
+ <div class="flex gap-5 px-32 py-10 w-full h-96">
+    <a class="w-1/4 relative" href="" target="_blank">
+        <div class="absolute bg-black/0 inset-0 hover:bg-black/30 text-white/0 hover:text-white/100 flex items-end text-xl pl-5 h-full">
+            TEST
         </div>
-        <!-- <img :src = "uidesign.url"> -->
-        <div style="background-repeat: no-repeat;
-        background-size: 100%;
-        background-position: center;"
-        class="w-full h-[25vh]" 
-        :style="{ 'background-image': 'url(' + uidesign.url + ')' }">
-            
+        <div style="
+            background-image: url('../../public/uidesigns/attendancesystem-mobile-list@3x.png');
+            background-repeat: no-repeat;
+            background-size: auto 100%;
+            background-position: center;"
+            class="w-full h-full">     
         </div>
     </a>  
 
+    <a class="w-1/4 relative" href="" target="_blank">
+        <div class="absolute bg-black/0 inset-0 hover:bg-black/30 text-white/0 hover:text-white/100 flex items-end text-xl pl-5 h-full">
+            TEST
+        </div>
+        <div style="
+            background-image: url('../../public/uidesigns/attendancesystem-mobile-list@3x.png');
+            background-repeat: no-repeat;
+            background-size: auto 100%;
+            background-position: center;"
+            class="w-full h-full">     
+        </div>
+    </a>  
+
+    <a class="w-1/4 relative" href="" target="_blank">
+        <div class="absolute bg-black/0 inset-0 hover:bg-black/30 text-white/0 hover:text-white/100 flex items-end text-xl pl-5 h-full">
+            TEST
+        </div>
+        <div style="
+            background-image: url('../../public/uidesigns/attendancesystem-mobile-list@3x.png');
+            background-repeat: no-repeat;
+            background-size: auto 100%;
+            background-position: center;"
+            class="w-full h-full">     
+        </div>
+    </a>  
+
+    <a class="w-1/4 relative" href="" target="_blank">
+        <div class="absolute bg-black/0 inset-0 hover:bg-black/30 text-white/0 hover:text-white/100 flex items-end text-xl pl-5 h-full">
+            TEST
+        </div>
+        <div style="
+            background-image: url('../../public/uidesigns/attendancesystem-mobile-list@3x.png');
+            background-repeat: no-repeat;
+            background-size: auto 100%;
+            background-position: center;"
+            class="w-full h-full">     
+        </div>
+    </a>  
     
  </div>
 
